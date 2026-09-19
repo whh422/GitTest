@@ -1,0 +1,15 @@
+# 克隆仓库
+git clone https://github.com/example/project.git
+cd project
+
+# 更新主分支
+git switch main
+git pull --ff-only origin main
+
+# 创建功能分支
+git switch -c feature/login
+
+# 开发后提交
+git status
+git add .
+git commit -m "实现登录页面基础结构"
