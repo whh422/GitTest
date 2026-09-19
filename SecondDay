@@ -1,0 +1,13 @@
+# 确认位于自己的功能分支
+git switch feature/login
+
+# 确保本地修改已经提交
+git status
+git add .
+git commit -m "保存当前登录功能进度"
+
+# 获取远程最新提交
+git fetch origin
+
+# 把自己的提交放到最新远程main之后
+git rebase origin/main
