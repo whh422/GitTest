@@ -1,0 +1,5 @@
+第三天
+git add
+git commit -m 'sss'
+git status
+git log --ongline --graph --decorate -all
